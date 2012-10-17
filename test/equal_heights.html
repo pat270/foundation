@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width" />
+
+  <title>Foundation PAGE Testing</title>
+
+  <!-- Included CSS Files -->
+  <link rel="stylesheet" href="stylesheets/styles.css">
+  <style>
+    .granel { 
+      background: #ccff66; 
+      border: solid 1px #ccff00;
+    }
+  </style>
+
+  <script src="../vendor/assets/javascripts/foundation/modernizr.foundation.js"></script>
+
+  <!-- IE Fix for HTML5 Tags -->
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+<body>
+  
+  <div class="row">
+    <div class="twelve columns">
+      <p><a href="index.html">&laquo; Back</a></p>
+      <h2>Foundation Equal Heights Testing</h2>
+      <hr />
+      <dl class="sub-nav">
+        <dt>Go to:</dt>
+        <dd><a href="#basic-grid">Basic Grid</a></dd>
+      </dl>
+    </div>
+  </div>
+  <div class="row">
+    <div class="four columns">
+      <div class="panel">
+        This is a Panel.
+      </div>
+    </div>
+    <div class="four columns">
+      <div class="panel">
+        This is a Panel.
+      </div>
+    </div>
+    <div class="four columns">
+      <div class="panel">
+        This is another panel that is here! It is longer than the panel next to it 
+        because it has more words. Shorter panels in the same row do not share the same height. We can create a layout using tables to make panels all the same height or javascript. This is a javascript solution.
+      </div>
+    </div>
+  </div>
+  <div class="row zfeqh">
+    <div class="four columns">
+      <div class="panel granel">
+        This is a Panel.
+      </div>
+    </div>
+    <div class="four columns">
+      <div class="panel granel">
+        This is a Panel.
+      </div>
+    </div>
+    <div class="four columns">
+      <div class="panel granel">
+        This is another panel that is here! It is longer than the panel next to it 
+        because it has more words. Shorter panels in the same row do not share the same height. We can create a layout using tables to make panels all the same height or javascript. This is a javascript solution.
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="eight columns centered">
+      <div class="panel">
+        <p>Add class zfeqh to a row to make panels in that row the same height.</p>
+      </div>
+      <div class="row zfeqh">
+        <div class="six columns">
+          <div class="panel">Panel #1</div>
+        </div>
+        <div class="six columns">
+          <div class="panel">
+            This is another panel that is here! It is longer than the panel next to it 
+            because it has more words. Shorter panels in the same row do not share the same height. We can create a layout using tables to make panels all the same height, css hackery, or javascript. This is a javascript solution.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Test Foundation Components Here -->
+  
+  
+  <!-- Included JS Files -->
+  <script src="../vendor/assets/javascripts/foundation/jquery.js"></script>
+  <script src="../vendor/assets/javascripts/foundation/jquery.foundation.mediaQueryToggle.js"></script>
+  <script src="../vendor/assets/javascripts/foundation/jquery.placeholder.js"></script>
+  <script src="../vendor/assets/javascripts/foundation/jquery.foundation.alerts.js"></script>
+  <script src="../vendor/assets/javascripts/foundation/jquery.foundation.accordion.js"></script>
+  <script src="../vendor/assets/javascripts/foundation/jquery.foundation.buttons.js"></script>
+  <script src="../vendor/assets/javascripts/foundation/jquery.foundation.tooltips.js"></script>
+  <script src="../vendor/assets/javascripts/foundation/jquery.foundation.forms.js"></script>
+  <script src="../vendor/assets/javascripts/foundation/jquery.foundation.tabs.js"></script>
+  <script src="../vendor/assets/javascripts/foundation/jquery.foundation.navigation.js"></script>
+  <script src="../vendor/assets/javascripts/foundation/jquery.foundation.reveal.js"></script>
+  <script src="../vendor/assets/javascripts/foundation/jquery.foundation.orbit.js"></script>
+  <script src="../vendor/assets/javascripts/foundation/jquery.eqheight.js"></script>
+  <script src="../vendor/assets/javascripts/foundation/app.js"></script>
+  <script type="text/javascript">
+    // Page-Specific JavaScript Goes Here
+  </script> 
+</body>
+</html>
