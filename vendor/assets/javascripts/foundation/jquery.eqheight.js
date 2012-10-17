@@ -48,6 +48,7 @@ need to add or remove depending on window size
         ws_zone = 2;
         that.mkEqual(el, true);
         that.mkEqual(el);
+        $('ul.dropdown').css('height', '');
       }
       if (ws >= 960 && ws_zone !== 3) {
         ws_zone = 3;
