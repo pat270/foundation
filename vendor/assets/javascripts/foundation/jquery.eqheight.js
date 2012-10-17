@@ -73,5 +73,5 @@ need to add or remove depending on window size
 })(jQuery);
 
 $(document).ready(function() {
-  $('.zfeqh').zfeqh('.granel');
+  $('.zfeqh').zfeqh('.panel');
 });
